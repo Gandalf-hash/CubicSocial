@@ -1,0 +1,80 @@
+.login1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWrapper1 {
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.loginLeft1, .loginRight1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginLogo1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1775ee;
+    margin-bottom: 10px;
+}
+
+.loginBox1 {
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loginInput1:focus {
+    outline: none;
+}
+
+.loginInput1 {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.loginButton1 {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1775ee;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.loginForgot1 {
+    text-align: center;
+    color: #1775ee;
+
+}
+
+.loginRegisterButton1 {
+    width: 50%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #42b72a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
